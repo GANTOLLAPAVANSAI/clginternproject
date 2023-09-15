@@ -1,0 +1,182 @@
+
+body{
+    margin:40px;
+    height:100%vh;
+    margin: 0;
+}
+.main_container{
+    display: flex;
+    width:100%vw;
+    justify-content:space-around;
+    margin:0;
+    height:600px;
+}
+.head{
+    display: flex;
+    justify-content:space-evenly;
+    height: 150px;
+    margin:70px;
+}
+.logmain{
+    width:250px;
+    height: 100px;
+    padding-top:50px;
+}
+.log,.sign{
+    width:100px;
+    height:50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.sign{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log{
+    background-color:antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2b1e16;
+    
+}
+.log:hover,.sign:hover{
+    transform: scale(1.2);
+}
+.img{
+    display: flex;
+    width:400px;
+}
+.title{
+    padding-bottom:70px;
+    color: orangered;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title::first-letter{
+    font-size:70px;
+}
+.h1{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size:xx-large;
+    width: 500px;
+    margin-bottom: 0;
+}
+.message{
+    font-weight:lighter;
+    font-size: larger;
+    margin-top: 0;
+    color:black
+}
+.location{
+    margin-left: 70px;
+    display: flex;
+    justify-self:auto;
+    margin-top:40px;
+    width: 500px;;
+    margin-bottom: 0px;
+}
+
+#locate{
+   width:400px;
+   height:40px;
+}
+input[placeholder]{
+    padding-left: 10px;
+}
+.but{
+    height:45.20px;
+    width: 100px;
+    background-color:#fc8019;
+    padding: 4px 0px 10px 25px;
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+.city{
+    margin-left:70px;
+
+}
+.ci{
+    font-weight:400;
+    font-size: 15px;
+    color:#96979a;
+    letter-spacing: 2px;
+}
+.container2{
+    margin:0;
+    width: 100%;
+    position: relative;
+}
+.image{
+    height: 700px;
+    z-index:0
+}
+.three{
+  width:100%vw;
+  height:400px;
+  background-color:#2b1e16;
+  z-index: 1.5;
+  position: relative;
+  display: flex;
+  justify-content:space-around;
+  color: aliceblue;
+}
+.but:hover{
+  box-shadow:0 0 20px  #fc8019;
+}
+#locate:hover,#locate:focus{
+    box-shadow: 0 0 20px #fc8019;
+    outline-color: #fc8019;
+}
+.res{
+    margin-left:130px;
+    margin-top: 130px;
+    font-weight:bolder;
+    font-family:sans-serif;
+    letter-spacing:1.5px;;
+}
+.order{
+    margin-left:130px;
+    margin-top:10px;
+    font-size: 20px;;
+    
+}
+.fourthcontainer{
+    display: flex;
+    justify-content:space-around;
+}
+.findfood{
+    display: flex;
+    width:100%vw;
+    height:200px;
+    justify-content: space-evenly;
+}
+.ice1:hover,.ice2:hover,.pizza1:hover,.pizza2:hover{
+    transform: scale(1.2);
+}
+
+.chicken{
+    display: flex;
+    width:100%vw;
+    height:200px;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.fries:hover{
+    transform: scale(1.2);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width:100%vw;
+    height:80px;
+    background-color: #2b1e16;
+}
+
+
+
